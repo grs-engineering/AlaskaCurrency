@@ -8,6 +8,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CurrencyTests", "CurrencyTe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiTests", "ApiTests\ApiTests.csproj", "{D9603F34-FCA9-43FE-AB04-1E3070B263AD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{4D1EA9A5-6101-4EFF-8AD3-4D8815C3609B}"
+	ProjectSection(SolutionItems) = preProject
+		Docs\README.md = Docs\README.md
+		Docs\Conversion Rates.csv = Docs\Conversion Rates.csv
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
