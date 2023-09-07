@@ -6,9 +6,6 @@ This subsystem will watch a given directory, read CSV files, and load them into 
 Pretty straightforard.
 Uses CsvHelper.
 
-NOTE: The CSV file lists "RateFromUSDToCurrency", however the real value is reversed.
-So the target is always USD and the base is the listed currency.
-
 ## FileSystemWatcherWrapper
 This wraps the .net `System.IO.FileSystem.FileSystemWatcher` class to make it mockable.
 
